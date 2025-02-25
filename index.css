@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+
+}
+
+header h1 {
+    color: white;
+    font-size: 1.8em;
+}
+
+nav ul {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+#home {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home h2 {
+    color: #226824;
+    margin-bottom: 20px;
+}
+
+#home p {
+    font-weight: 550;
+}
+
+#goals {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#goals h2 {
+    font-size: 1.8em;
+    color: #226824;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#goals ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
+
+#goals ul li {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    #home, #goals {
+        margin-top: 15px;
+    }
+
+    #goals ul li {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 1.6em;
+    }
+
+    #home h2, #goals h2 {
+        font-size: 1.5em;
+    }
+
+    #goals ul li {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+
+    nav ul li {
+        margin-right: 5px;
+    }
+
+    #home h2, #goals h2 {
+        font-size: 1.2em;
+    }
+
+    #goals ul li {
+        font-size: 1em;
+    }
+}
